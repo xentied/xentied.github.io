@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            margin: 0;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .gallery img {
+            height: 300px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Cat Gallery</h1>
+
+<div class="gallery">
+    <a href="https://openverse.org/image/edbe6daf-22e7-44b8-a18c-68ff15b29980?q=kittens&p=10" target="_blank">
+        <img src="https://live.staticflickr.com/5492/14133945990_92ae29ac04_b.jpg" alt="Orange Cat">
+    </a>
+    <a href="https://www.publicdomainpictures.net/en/view-image.php?image=87723&picture=cat" target="_blank">
+        <img src="https://www.publicdomainpictures.net/pictures/90000/velka/cat-1402405571b22.jpg" alt="Cat next to watering can">
+    </a>
+    <a href="https://www.publicdomainpictures.net/en/view-image.php?image=89649&picture=animal" target="_blank">
+        <img src="https://www.publicdomainpictures.net/pictures/90000/velka/animal-1403709123lp8.jpg" alt="Orange kitty">
+    </a>
+</div>
+
+<div class="footer">
+    <p>Images sourced from Openverse and Public Domain Pictures</p>
+</div>
+
+</body>
+</html>
