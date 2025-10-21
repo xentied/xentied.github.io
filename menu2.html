@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  /* General style for all menus */
+  .menu {
+    width: 400px;
+    height: 550px;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid #333;
+    color: white;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box; /* keeps div size consistent */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.4); /* dark overlay to make text readable */
+  }
+
+  /* Breakfast menu */
+  .breakfast {
+    background-image: url('https://pancakerecipes.com/wp-content/uploads/2021/09/pancake-syrup-1500-10-600x900.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* Lunch menu */
+  .lunch {
+    background-image: url('https://www.theharvestkitchen.com/wp-content/uploads/2024/06/grilled-chicken-sandwich-1-1024x1536.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* Dinner menu */
+  .dinner {
+    background-image: url('https://th.bing.com/th/id/R.87ab9e62622540af12185fd1cc1a4da4?rik=9zQgLaepTAtQcA&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 3px black; /* makes title readable */
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px black; /* makes text readable */
+  }
+</style></head>
+<body>
+  
+  <!-- Breakfast Menu -->
+  <div class="menu breakfast">
+    <h2>Breakfast Menu</h2>
+    <ul>
+      <li>Pancakes</li>
+      <li>Scrambled eggs</li>
+      <li>Waffles</li>
+      <li>Orange juice</li>
+      <li>Coffee</li>
+      <li>French toast</li>
+      <li>Oatmeal</li>
+      <li>Bacon and Sausage</li>
+    </ul>
+  </div>
+
+  <!-- Lunch Menu -->
+  <div class="menu lunch">
+    <h2>Lunch Menu</h2>
+    <ul>
+      <li>Grilled chicken sandwich</li>
+      <li>Caesar salad</li>
+      <li>Tomato soup</li>
+      <li>Lemonade</li>
+      <li>Iced tea</li>
+      <li>Cheeseburger</li>
+      <li>Pizza</li>
+      <li>French fries</li>
+    </ul>
+  </div>
+
+  <!-- Dinner Menu -->
+  <div class="menu dinner">
+    <h2>Dinner Menu</h2>
+    <ul>
+      <li>Steak with vegetables</li>
+      <li>Spaghetti Bolognese</li>
+      <li>Garlic bread</li>
+      <li>Red wine</li>
+      <li>Chocolate cake</li>
+      <li>Chicken alfredo</li>
+      <li>Pizza</li>
+      <li>Tacos</li>
+    </ul>
+  </div>
+
+</body>
+</html>
