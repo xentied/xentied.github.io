@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Navigation bar */
+    nav {
+      position: fixed; /* Using position property */
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      color: white;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin-right: 15px;
+      text-decoration: none;
+    }
+
+    /* Team member container */
+    .team-member {
+      margin-top: 60px; /* so content isn't hidden under nav */
+      overflow: auto; /* clears floats inside each member */
+      padding: 15px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .team-member img {
+      float: left; /* using float */
+      width: 150px;
+      height: 150px;
+      margin-right: 15px;
+      border-radius: 10px;
+    }
+
+    .team-member p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation -->
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- Team Members -->
+<div class="team-member">
+  <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?cs=srgb&dl=pexels-italo-melo-881954-2379004.jpg&fm=jpg" alt="Team member 1">
+  <p><strong>Member 1:</strong> Member 1 loves organizing events and keeping the team on track. They enjoy helping everyone work together smoothly. In their free time, they like hiking and reading.</p>
+</div>
+
+<div class="team-member">
+  <img src="https://th.bing.com/th/id/R.e130975a07eefb93b47a8d8457a19613?rik=s7rk1pykfOStOw&pid=ImgRaw&r=0"
+     alt="Team member 2">
+  <p><strong>Member 2:</strong> Member 2 is creative and loves designing ideas for the team. They enjoy making things look nice and fun. Outside of work, they like painting and photography.</p>
+</div>
+
+<div class="team-member">
+  <img src="https://cdn.pixabay.com/photo/2022/05/05/01/13/woman-7175038_1280.jpg" alt="Team member 3">
+  <p><strong>Member 3:</strong> Member 3 is always curious and likes trying new things. They enjoy exploring new ideas and helping the team. In their free time, they like cooking and playing sports.</p>
+</div>
+
+<div class="team-member">
+  <img src="https://as1.ftcdn.net/v2/jpg/00/80/48/72/1000_F_80487267_CGJAUwOBB3ReYW1JiTIfXmMXt8wWaVuc.jpg" alt="Team member 4">
+  <p><strong>Member 4:</strong> Member 4 likes helping people and keeping everyone happy. They are great at solving small problems and making plans. Outside work, they enjoy music and spending time with friends.</p>
+</div>
