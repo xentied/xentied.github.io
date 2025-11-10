@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.puzzle-container {
+  display: flex;
+  flex-wrap: wrap;  /* pieces move to next row if needed */
+  justify-content: center; /* centers the puzzle */
+  width: 600px; /* adjust width for your puzzle */
+  margin: 20px auto;
+  gap: 2px; /* small space between pieces */
+}
+
+.puzzle-container img {
+  width: 100px; /* adjust to fit your puzzle */
+  height: 100px;
+}
+
+/* hide the wrong piece, for example piece G */
+.puzzle-container img[src*="puzzle1_G"] {
+  display: none;
+}
+
+.puzzle-container {
+  display: flex;      /* use Flexbox */
+  flex-wrap: wrap;    /* allow pieces to go to next row */
+  width: 250px;       /* set total puzzle width (adjust if needed) */
+  gap: 0;             /* no space between pieces */
+}
+
+.puzzle-container img {
+  width: 50px;        /* set width of each piece */
+  height: 50px;       /* set height of each piece */
+  object-fit: cover;  /* make sure images fit nicely */
+}
+
+/* hide the faulty piece if you know which one it is */
+img.faulty {
+  display: none;
+}
