@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Embedding Tutorial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            display: block;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+        iframe {
+            margin-top: 20px;
+            max-width: 100%;
+        }
+        p {
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <h1>How to Embed a YouTube Video</h1>
+    
+    <h2>Step 1</h2>
+    <p>Go to the video you want to embed on YouTube and click "Share", then "Embed".</p>
+    <img src="images/step1.png" alt="Step 1 screenshot">
+
+    <h2>Step 2</h2>
+    <p>Copy the iframe code provided by YouTube.</p>
+    <img src="images/step2.png" alt="Step 2 screenshot">
+
+    <h2>Step 3</h2>
+    <p>Paste the iframe code into your HTML page where you want the video to appear.</p>
+    <img src="images/step3.png" alt="Step 3 screenshot">
+
+    <h2>Embedded Video Example</h2>
+    <iframe width="560" height="315" 
+        src="https://www.youtube-nocookie.com/embed/6stlCkUDG_s?si=uua2VAG_86iLELlU" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+    </iframe>
+</body>
+</html>
