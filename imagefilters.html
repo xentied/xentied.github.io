@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Filters Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f0f0f0;
+    }
+
+    img {
+      margin: 20px;
+      width: 300px;
+      height: auto;
+      display: inline-block;
+    }
+
+    /* 1. Penguins - sepia */
+    img.penguins1 {
+      filter: sepia(100%);
+    }
+
+    /* 2. Butterfly - invert */
+    img.butterfly1 {
+      filter: invert(100%);
+    }
+
+    /* 3. Football field - grayscale */
+    img.football_field1 {
+      filter: grayscale(100%);
+    }
+
+    /* 4. Dinosaur - hue-rotate */
+    img.dinosaur {
+      filter: hue-rotate(90deg);
+    }
+
+    /* 5. Seagull - blueish sky background */
+    .seagull-container {
+      background-color: #87CEEB; /* sky blue */
+      display: inline-block;
+      padding: 10px;
+    }
+    img.seagull {
+      display: block;
+      width: 300px;
+      height: auto;
+    }
+
+    /* 6. Theater stage - blur */
+    img.theater_stage1 {
+      filter: blur(5px);
+    }
+  </style>
+</head>
+<body>
+  <h1>Image Filters Example</h1>
+
+  <img src="penguins1.jpg" class="penguins1" alt="Penguins">
+  <img src="butterfly1.jpg" class="butterfly1" alt="Butterfly">
+  <img src="football_field1.jpg" class="football_field1" alt="Football Field">
+  <img src="dinosaur.png" class="dinosaur" alt="Dinosaur">
+  <img src="seagull.png" class="seagull" alt="Seagull">
+  <img src="theater_stage1.jpg" class="theater_stage1" alt="Theater Stage">
+</body>
+</html>
