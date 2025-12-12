@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vocabulary Flashcards</title>
+<style>
+  /* Page styles */
+  body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    animation: fadeInPage 2s ease;
+  }
+
+  @keyframes fadeInPage {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  h1 {
+    margin-bottom: 40px;
+    color: #333;
+    font-size: 2em;
+    animation: slideDown 1s ease;
+  }
+
+  @keyframes slideDown {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+
+  /* Container for cards */
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  /* Individual card styles */
+  .card {
+    background: #fff;
+    width: 200px;
+    height: 150px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    padding: 15px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
+  }
+
+  .question {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+
+  .answer {
+    font-size: 0.95em;
+    color: #555;
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background: #e0f7fa;
+    transition: bottom 0.5s ease;
+  }
+
+  .card:hover .answer {
+    bottom: 0;
+  }
+</style>
+</head>
+<body>
+
+<h1>Vocabulary Flashcards</h1>
+
+<div class="cards-container">
+  <div class="card">
+    <div class="question">vanity</div>
+    <div class="answer">excessive pride in or admiration of one's own appearance or achievements</div>
+  </div>
+  
+  <div class="card">
+    <div class="question">obsequies</div>
+    <div class="answer">funeral rites</div>
+  </div>
+
+  <div class="card">
+    <div class="question">remedy</div>
+    <div class="answer">to restore to the natural or proper condition; put right</div>
+  </div>
+
+  <div class="card">
+    <div class="question">perfidious</div>
+    <div class="answer">deceitful and untrustworthy</div>
+  </div>
+
+  <div class="card">
+    <div class="question">vindictive</div>
+    <div class="answer">having or showing a strong or unreasoning desire for revenge</div>
+  </div>
+
+  <div class="card">
+    <div class="question">procuring</div>
+    <div class="answer">obtaining with care or effort</div>
+  </div>
+
+  <div class="card">
+    <div class="question">circumspect</div>
+    <div class="answer">wary and unwilling to take risks</div>
+  </div>
+
+  <div class="card">
+    <div class="question">kindle</div>
+    <div class="answer">arouse or inspire</div>
+  </div>
+
+  <div class="card">
+    <div class="question">cogitation</div>
+    <div class="answer">the action of thinking deeply about something; contemplation</div>
+  </div>
+
+  <div class="card">
+    <div class="question">perturbations</div>
+    <div class="answer">anxiety; mental uneasiness</div>
+  </div>
+</div>
+
+</body>
+</html>
